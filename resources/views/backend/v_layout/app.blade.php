@@ -95,6 +95,14 @@
                                 <div class="dropdown-divider"></div>
                             </div>
                         </li>
+                        <li class="sidebar-item">
+                            <a href="{{ route('backend.kategori.index') }}" class="sidebar-link">
+                                <i class="mdi mdi-chevron-right"></i>
+                                <span class="hide-menu">Kategori</span>
+                            </a>
+                        </li>
+
+
                         <!-- ========================================================= -->
                         <!-- End user profile and search -->
                         <!-- ========================================================= -->
@@ -130,13 +138,13 @@
                     </a>
                     <ul aria-expanded="false" class="collapse first-level">
                         <li class="sidebar-item">
-                            <a href="icon-material.html" class="sidebar-link">
+                            <a href="{{ route('backend.kategori.index')}}" class="sidebar-link">
                                 <i class="mdi mdi-chevron-right"></i>
                                 <span class="hide-menu">Kategori</span>
                             </a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="icon-fontawesome.html" class="sidebar-link">
+                            <a href= "{{ route('backend.produk.index')}}" class="sidebar-link">
                                 <i class="mdi mdi-chevron-right"></i>
                                 <span class="hide-menu">Produk</span>
                             </a>
